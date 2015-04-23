@@ -1,2 +1,2 @@
 # angular-demo
-angular boot
+angular bootstrap
