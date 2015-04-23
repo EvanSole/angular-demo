@@ -1,0 +1,35 @@
+/***
+ login css
+***/
+.login {
+    background-image: url("../images/bg-saml.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: auto;
+}
+
+.container {
+    background:black;
+    filter: alplha(Opactiy=80);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    max-width: 450px;
+    margin-top: 10%;
+    color:white;
+    z-index:1;
+}
+
+.form-signin {
+    max-width: 350px;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+.input-group{
+    margin-bottom: 10px;
+}
+
+.input-group span{
+    top: 0px;
+}
+
