@@ -1,22 +1,40 @@
 /***
  login css
 ***/
-.login {
+body {
     background-image: url("../images/bg-saml.jpg");
     background-repeat:no-repeat;
     background-size:cover;
-    width: auto;
+    text-align: center;
 }
 
 .container {
-    background:black;
-    filter: alplha(Opactiy=80);
+    position: absolute;
+    max-width: 450px;
+    left: 50%;
+    top: 30%;
+    color:white;
+    margin-left:-180px;
+}
+
+.signin_div {
+     position: absolute;
+     background-color:slategray;
+     width: 360px;
+     height: 300px;
+     z-index: 3;
+}
+.shade_div {
+    position: absolute;
+    background-color: #808080;
+    filter: alplha(Opactiy=30);
     -moz-opacity: 0.5;
     opacity: 0.5;
-    max-width: 450px;
-    margin-top: 10%;
-    color:white;
-    z-index:1;
+    left: 5px;
+    top: -10px;
+    width: 380px;
+    height: 320px;
+    z-index: 2;
 }
 
 .form-signin {
